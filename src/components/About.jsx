@@ -31,7 +31,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'>
-        yo hohohohoohohhohooh
+      I am a dynamic full-stack developer proficient in Unity for 3D game development, React, Node.js, Three.js, TypeScript, and JavaScript for web development, and React Native for mobile applications. Skilled in Tailwind CSS for creating sleek UI designs, I am dedicated to continuous improvement, exploring new technologies, and crafting user-friendly applications. Beyond coding, I'm an avid anime enthusiast and passionate gamer.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>
