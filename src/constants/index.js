@@ -8,16 +8,11 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
-    git,
     figma,
-    docker,
-    meta,
     starbucks,
-    tesla,
     shopify,
     carrent,
     jobit,
@@ -81,10 +76,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -101,16 +92,8 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -120,7 +103,7 @@ import {
       company_name: "Back to the future",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Nov-2023",
       points: [
         "Participated in an international level hackathon (Flow Hackathon) to showcase innovation and creativity in game development using blockchain technology.",
         "Specializing in the development of isometric games using Unity Engine and Flow blockchain technology.",
@@ -129,42 +112,16 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Open-Weaver No Code Platform",
+      company_name: "Otaku Hub",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov-2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a user friendOtaku Hub, leveraging the OpenWeaver platform to craft a user-friendly anime website.",
+        "Engineered a responsive front-end design coupled with a robust backend infrastructure utilizing OpenWeaver tools.",
+        "Integrated advanced AI functionalities to dynamically generate content descriptions and implement a personalized recommendation system based on user preferences.",
+        "Achieved recognition as the runner-up in a prestigious hackathon counducted in Loyola-Icam College of Engineering and Technology, securing a cash prize of 9000 INR for the innovative implementation of Otaku Hub.",
       ],
     },
   ];
@@ -172,41 +129,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cafe Simulator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Unity Engine Simulator based game, where the player finds that his grand father owned a cafe, We find the cafe where we rebuild it and run a top class cafe",
       tags: [
         {
-          name: "react",
+          name: "Unity Engine",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "C-Sharp",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Anime Hub",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Mobile application which connects Anime watchers and Manga reader in a interactive platform where they share and view content with artificial intelegence Algorithms",
       tags: [
         {
-          name: "react",
+          name: "react Native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
@@ -214,21 +167,38 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An appealing portfolio, crafted with Three.js, showcases my projects, achievements, while also highlighting my front-end skills effectively.",
       tags: [
         {
-          name: "nextjs",
+          name: "Three.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "V-Tuber Hub",
+      description:
+        "Developed a front-end product tailored for Vtubers and 3D model designers/animators, fostering seamless collaboration and connection between the two communities.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
         },
       ],
       image: tripguide,
